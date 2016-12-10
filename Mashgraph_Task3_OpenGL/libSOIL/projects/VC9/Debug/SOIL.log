@@ -1,0 +1,57 @@
+﻿Сборка начата 16.11.2016 0:49:50.
+     1>Проект "E:\Data\Машграф\2016\template_task3_2016_vs\Simple OpenGL Image Library\projects\VC9\SOIL.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\SOIL.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\image_DXT.c ..\..\src\image_helper.c ..\..\src\SOIL.c ..\..\src\stb_image_aug.c
+         stb_image_aug.c
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\stb_image_aug.c(177): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\stb_image_aug.c(251): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\stb_image_aug.c(303): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\stb_image_aug.c(1557): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\stb_image_aug.c(2394): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\stb_image_aug.c(2709): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\stb_image_aug.c(2995): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\stb_image_aug.c(3209): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\stb_image_aug.c(3548): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\stb_image_aug.c(3644): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\stbi_dds_aug_c.h(362): warning C4018: >: несоответствие типов со знаком и без знака
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\stbi_dds_aug_c.h(366): warning C4018: >: несоответствие типов со знаком и без знака
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\stbi_dds_aug_c.h(390): warning C4018: <: несоответствие типов со знаком и без знака
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\stbi_dds_aug_c.h(427): warning C4018: <: несоответствие типов со знаком и без знака
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\stbi_dds_aug_c.h(498): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+         SOIL.c
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\soil.c(1719): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\soil.c(1729): warning C4018: <: несоответствие типов со знаком и без знака
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\soil.c(1841): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+         image_helper.c
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\image_helper.c(325): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\image_helper.c(366): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\image_helper.c(373): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\image_helper.c(415): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\image_helper.c(422): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+         image_DXT.c
+     1>e:\data\машграф\2016\template_task3_2016_vs\simple opengl image library\src\image_dxt.c(92): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+         Создание кода...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"E:\Data\Машграф\2016\template_task3_2016_vs\Debug\SOIL.lib" /NOLOGO Debug\image_DXT.obj
+         Debug\image_helper.obj
+         Debug\SOIL.obj
+         Debug\stb_image_aug.obj
+         SOIL.vcxproj -> E:\Data\Машграф\2016\template_task3_2016_vs\Debug\SOIL.lib
+     1>Сборка проекта "E:\Data\Машграф\2016\template_task3_2016_vs\Simple OpenGL Image Library\projects\VC9\SOIL.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.70

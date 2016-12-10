@@ -7,24 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78F04C831DD641F40059C321 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F04C821DD641F40059C321 /* main.cpp */; };
+		78F04C941DD642200059C321 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F04C891DD642200059C321 /* Camera.cpp */; };
+		78F04C951DD642200059C321 /* GL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F04C8A1DD642200059C321 /* GL.cpp */; };
+		78F04C961DD642200059C321 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F04C8B1DD642200059C321 /* main.cpp */; };
+		78F04C971DD642200059C321 /* mat4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F04C8C1DD642200059C321 /* mat4.cpp */; };
+		78F04C981DD642200059C321 /* Overall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F04C8D1DD642200059C321 /* Overall.cpp */; };
+		78F04C991DD642200059C321 /* ShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F04C8E1DD642200059C321 /* ShaderProgram.cpp */; };
+		78F04C9A1DD642200059C321 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F04C8F1DD642200059C321 /* Texture.cpp */; };
+		78F04C9B1DD642200059C321 /* uvec3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F04C901DD642200059C321 /* uvec3.cpp */; };
+		78F04C9C1DD642200059C321 /* vec2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F04C911DD642200059C321 /* vec2.cpp */; };
+		78F04C9D1DD642200059C321 /* vec3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F04C921DD642200059C321 /* vec3.cpp */; };
+		78F04C9E1DD642200059C321 /* vec4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F04C931DD642200059C321 /* vec4.cpp */; };
+		78F04CA11DD644720059C321 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F04CA01DD644720059C321 /* GLUT.framework */; };
+		78F04CA31DD644790059C321 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F04CA21DD644790059C321 /* OpenGL.framework */; };
+		B4E6E70F1DE66C96002FEB01 /* libUtility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E6E70E1DE66C96002FEB01 /* libUtility.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		B4E6E7461DE71983002FEB01 /* image_DXT.c in Sources */ = {isa = PBXBuildFile; fileRef = B4E6E7421DE71983002FEB01 /* image_DXT.c */; };
+		B4E6E7471DE71983002FEB01 /* image_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = B4E6E7431DE71983002FEB01 /* image_helper.c */; };
+		B4E6E7481DE71983002FEB01 /* SOIL.c in Sources */ = {isa = PBXBuildFile; fileRef = B4E6E7441DE71983002FEB01 /* SOIL.c */; };
+		B4E6E7491DE71983002FEB01 /* stb_image_aug.c in Sources */ = {isa = PBXBuildFile; fileRef = B4E6E7451DE71983002FEB01 /* stb_image_aug.c */; };
+		B4FD5EEE1DFC69CD00D4FF83 /* Data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4FD5EED1DFC69CD00D4FF83 /* Data.cpp */; };
+		B4FD5EEF1DFC69D800D4FF83 /* Serializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4FD5EE91DFB914400D4FF83 /* Serializer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		78F04C7D1DD641F40059C321 /* CopyFiles */ = {
+		78F04C7D1DD641F40059C321 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		78A4487A1DD724840006C95E /* Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		78A4487B1DD724840006C95E /* GL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GL.h; sourceTree = "<group>"; };
+		78A4487C1DD724840006C95E /* mat4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mat4.h; sourceTree = "<group>"; };
+		78A4487D1DD724840006C95E /* Overall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Overall.h; sourceTree = "<group>"; };
+		78A4487E1DD724840006C95E /* ShaderProgram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderProgram.h; sourceTree = "<group>"; };
+		78A4487F1DD724840006C95E /* Texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		78A448801DD724840006C95E /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		78A448811DD724840006C95E /* uvec3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uvec3.h; sourceTree = "<group>"; };
+		78A448821DD724840006C95E /* vec2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vec2.h; sourceTree = "<group>"; };
+		78A448831DD724840006C95E /* vec3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vec3.h; sourceTree = "<group>"; };
+		78A448841DD724840006C95E /* vec4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vec4.h; sourceTree = "<group>"; };
 		78F04C7F1DD641F40059C321 /* Mashgraph_Task3_OpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Mashgraph_Task3_OpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
-		78F04C821DD641F40059C321 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		78F04C891DD642200059C321 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		78F04C8A1DD642200059C321 /* GL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GL.cpp; sourceTree = "<group>"; };
+		78F04C8B1DD642200059C321 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		78F04C8C1DD642200059C321 /* mat4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mat4.cpp; sourceTree = "<group>"; };
+		78F04C8D1DD642200059C321 /* Overall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Overall.cpp; sourceTree = "<group>"; };
+		78F04C8E1DD642200059C321 /* ShaderProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderProgram.cpp; sourceTree = "<group>"; };
+		78F04C8F1DD642200059C321 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
+		78F04C901DD642200059C321 /* uvec3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uvec3.cpp; sourceTree = "<group>"; };
+		78F04C911DD642200059C321 /* vec2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vec2.cpp; sourceTree = "<group>"; };
+		78F04C921DD642200059C321 /* vec3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vec3.cpp; sourceTree = "<group>"; };
+		78F04C931DD642200059C321 /* vec4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vec4.cpp; sourceTree = "<group>"; };
+		78F04CA01DD644720059C321 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		78F04CA21DD644790059C321 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		B4E6E70C1DE66C81002FEB01 /* libSOIL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSOIL.a; path = Mashgraph_Task3_OpenGL/bin/lib/libSOIL.a; sourceTree = "<group>"; };
+		B4E6E70E1DE66C96002FEB01 /* libUtility.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUtility.a; path = Mashgraph_Task3_OpenGL/bin/lib/libUtility.a; sourceTree = "<group>"; };
+		B4E6E7421DE71983002FEB01 /* image_DXT.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = image_DXT.c; path = Mashgraph_Task3_OpenGL/libSOIL/src/image_DXT.c; sourceTree = "<group>"; };
+		B4E6E7431DE71983002FEB01 /* image_helper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = image_helper.c; path = Mashgraph_Task3_OpenGL/libSOIL/src/image_helper.c; sourceTree = "<group>"; };
+		B4E6E7441DE71983002FEB01 /* SOIL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = SOIL.c; path = Mashgraph_Task3_OpenGL/libSOIL/src/SOIL.c; sourceTree = "<group>"; };
+		B4E6E7451DE71983002FEB01 /* stb_image_aug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = stb_image_aug.c; path = Mashgraph_Task3_OpenGL/libSOIL/src/stb_image_aug.c; sourceTree = "<group>"; };
+		B4FD5EE91DFB914400D4FF83 /* Serializer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Serializer.cpp; path = Mashgraph_Task3_OpenGL/Serializer/Serializer.cpp; sourceTree = "<group>"; };
+		B4FD5EED1DFC69CD00D4FF83 /* Data.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Data.cpp; path = Mashgraph_Task3_OpenGL/Serializer/Data.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,17 +83,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E6E70F1DE66C96002FEB01 /* libUtility.a in Frameworks */,
+				78F04CA31DD644790059C321 /* OpenGL.framework in Frameworks */,
+				78F04CA11DD644720059C321 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78A448791DD724600006C95E /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				78A4487A1DD724840006C95E /* Camera.h */,
+				78A4487B1DD724840006C95E /* GL.h */,
+				78A4487C1DD724840006C95E /* mat4.h */,
+				78A4487D1DD724840006C95E /* Overall.h */,
+				78A4487E1DD724840006C95E /* ShaderProgram.h */,
+				78A4487F1DD724840006C95E /* Texture.h */,
+				78A448801DD724840006C95E /* Utility.h */,
+				78A448811DD724840006C95E /* uvec3.h */,
+				78A448821DD724840006C95E /* vec2.h */,
+				78A448831DD724840006C95E /* vec3.h */,
+				78A448841DD724840006C95E /* vec4.h */,
+			);
+			name = Headers;
+			path = Mashgraph_Task3_OpenGL/Utility/include;
+			sourceTree = SOURCE_ROOT;
+		};
 		78F04C761DD641F40059C321 = {
 			isa = PBXGroup;
 			children = (
+				B4FD5EED1DFC69CD00D4FF83 /* Data.cpp */,
+				B4FD5EE91DFB914400D4FF83 /* Serializer.cpp */,
+				B4E6E7421DE71983002FEB01 /* image_DXT.c */,
+				B4E6E7431DE71983002FEB01 /* image_helper.c */,
+				B4E6E7441DE71983002FEB01 /* SOIL.c */,
+				B4E6E7451DE71983002FEB01 /* stb_image_aug.c */,
+				78A448791DD724600006C95E /* Headers */,
 				78F04C811DD641F40059C321 /* Mashgraph_Task3_OpenGL */,
 				78F04C801DD641F40059C321 /* Products */,
+				78F04C9F1DD644710059C321 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +138,31 @@
 		78F04C811DD641F40059C321 /* Mashgraph_Task3_OpenGL */ = {
 			isa = PBXGroup;
 			children = (
-				78F04C821DD641F40059C321 /* main.cpp */,
+				78F04C891DD642200059C321 /* Camera.cpp */,
+				78F04C8A1DD642200059C321 /* GL.cpp */,
+				78F04C8B1DD642200059C321 /* main.cpp */,
+				78F04C8C1DD642200059C321 /* mat4.cpp */,
+				78F04C8D1DD642200059C321 /* Overall.cpp */,
+				78F04C8E1DD642200059C321 /* ShaderProgram.cpp */,
+				78F04C8F1DD642200059C321 /* Texture.cpp */,
+				78F04C901DD642200059C321 /* uvec3.cpp */,
+				78F04C911DD642200059C321 /* vec2.cpp */,
+				78F04C921DD642200059C321 /* vec3.cpp */,
+				78F04C931DD642200059C321 /* vec4.cpp */,
 			);
-			path = Mashgraph_Task3_OpenGL;
+			name = Mashgraph_Task3_OpenGL;
+			path = Mashgraph_Task3_OpenGL/Utility/src;
+			sourceTree = "<group>";
+		};
+		78F04C9F1DD644710059C321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4E6E70E1DE66C96002FEB01 /* libUtility.a */,
+				B4E6E70C1DE66C81002FEB01 /* libSOIL.a */,
+				78F04CA21DD644790059C321 /* OpenGL.framework */,
+				78F04CA01DD644720059C321 /* GLUT.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,7 +174,7 @@
 			buildPhases = (
 				78F04C7B1DD641F40059C321 /* Sources */,
 				78F04C7C1DD641F40059C321 /* Frameworks */,
-				78F04C7D1DD641F40059C321 /* CopyFiles */,
+				78F04C7D1DD641F40059C321 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -89,7 +192,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0810;
-				ORGANIZATIONNAME = "Игорь Анфёров";
+				ORGANIZATIONNAME = "Дмитрий Баранчук";
 				TargetAttributes = {
 					78F04C7E1DD641F40059C321 = {
 						CreatedOnToolsVersion = 8.1;
@@ -119,7 +222,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78F04C831DD641F40059C321 /* main.cpp in Sources */,
+				B4FD5EEE1DFC69CD00D4FF83 /* Data.cpp in Sources */,
+				B4E6E7461DE71983002FEB01 /* image_DXT.c in Sources */,
+				B4FD5EEF1DFC69D800D4FF83 /* Serializer.cpp in Sources */,
+				B4E6E7471DE71983002FEB01 /* image_helper.c in Sources */,
+				B4E6E7481DE71983002FEB01 /* SOIL.c in Sources */,
+				B4E6E7491DE71983002FEB01 /* stb_image_aug.c in Sources */,
+				78F04C9B1DD642200059C321 /* uvec3.cpp in Sources */,
+				78F04C981DD642200059C321 /* Overall.cpp in Sources */,
+				78F04C9C1DD642200059C321 /* vec2.cpp in Sources */,
+				78F04C9A1DD642200059C321 /* Texture.cpp in Sources */,
+				78F04C951DD642200059C321 /* GL.cpp in Sources */,
+				78F04C9E1DD642200059C321 /* vec4.cpp in Sources */,
+				78F04C941DD642200059C321 /* Camera.cpp in Sources */,
+				78F04C991DD642200059C321 /* ShaderProgram.cpp in Sources */,
+				78F04C961DD642200059C321 /* main.cpp in Sources */,
+				78F04C9D1DD642200059C321 /* vec3.cpp in Sources */,
+				78F04C971DD642200059C321 /* mat4.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,14 +335,34 @@
 		78F04C871DD641F40059C321 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Mashgraph_Task3_OpenGL/libSOIL/src",
+					"$(PROJECT_DIR)/Mashgraph_Task3_OpenGL/Serializer",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mashgraph_Task3_OpenGL/bin/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
 			};
 			name = Debug;
 		};
 		78F04C881DD641F40059C321 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Mashgraph_Task3_OpenGL/libSOIL/src",
+					"$(PROJECT_DIR)/Mashgraph_Task3_OpenGL/Serializer",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mashgraph_Task3_OpenGL/bin/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
 			};
 			name = Release;
 		};
@@ -246,6 +385,7 @@
 				78F04C881DD641F40059C321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
