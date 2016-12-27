@@ -3,6 +3,6 @@ Grass Simulator
 
 OS: MacOS X
 
-Tools: OpenGL
+Tools: Xcode, OpenGL
 
 ![example](http://joxi.net/eAO0XNehxxdxqr.jpg)
